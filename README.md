@@ -31,7 +31,7 @@ This tool was developed as a final exam project for a graduate course (DFOR772-F
    - The module should now be available 
 
 ## Usage
-After installation, the AWS CloudTrail Log Parser will automatically process any AWS CloudTrail log files encountered during Data Source ingestion if the module is selected. Alternatively, you can Click on `Tools`, then click `Run Ingest Module`, and then select which Data Source you would like to run it on. You will now be presented with a list of modules. Select the one you wish to run and click `Finish`.
+After installation, the AWS CloudTrail Log Parser will automatically process any AWS CloudTrail log files encountered during Data Source ingestion if the module is selected. Alternatively, you can click on `Tools`, then click `Run Ingest Module`, and then select which Data Source you would like to run it on. You will now be presented with a list of modules. Select the one you wish to run and click `Finish`.
 
 To view the results:
 1. Open your case in Autopsy.
