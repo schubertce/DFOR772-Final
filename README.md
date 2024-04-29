@@ -4,6 +4,8 @@
 ## Description
 The AWS CloudTrail Log Parser is an ingest module for Autopsy that allows forensic analysts to parse and analyze AWS CloudTrail log files directly within the Autopsy forensic platform. This module extracts key information from CloudTrail logs, such as event names, timestamps, source IP addresses, user agent details, and more, to aid in digital forensic investigations.
 
+This tool was developed as a final exam project for a graduate course (DFOR772-Forensic Artifact Extraction) for the Digital Forensics program at George Mason University under the supervision of Dr. Eric Eppley.
+
 ## Features
 - **Log Identification**: Automatically identifies and processes AWS CloudTrail JSON log files.
 - **Data Extraction**: Extracts crucial information from each log entry, including:
