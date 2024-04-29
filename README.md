@@ -26,13 +26,16 @@ This tool was developed as a final exam project for a graduate course (DFOR772-F
 
 2. **Install the Module in Autopsy**:
    - Open Autopsy and go to `Tools` > `Python Plugins`.
-   - Click on `Install` and select the downloaded `AWS_CloudTrail_Log_Parser.py` file.
-   - Restart Autopsy to activate the module.
+   - This will open an explorer window to the location of the Autopsy Python Plugin repository.
+   - Create a new folder and copy the `AWS_CloudTrail_Log_Parser.py` file into the new folder.
+   - The module should now be available 
 
 ## Usage
-After installation, the AWS CloudTrail Log Parser will automatically process any AWS CloudTrail log files encountered during a case investigation. To view the results:
+After installation, the AWS CloudTrail Log Parser will automatically process any AWS CloudTrail log files encountered during Data Source ingestion if the module is selected. Alternatively, you can Click on `Tools`, then click `Run Ingest Module`, and then select which Data Source you would like to run it on. You will now be presented with a list of modules. Select the one you wish to run and click `Finish`.
+
+To view the results:
 1. Open your case in Autopsy.
-2. Navigate to the `Data Sources` section.
+2. Navigate to the `Data Artifacts` section.
 3. Look for artifacts labeled as `CloudTrail Log Entries`, which contain the parsed log data.
 
 ## Configuration
