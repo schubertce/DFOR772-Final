@@ -36,7 +36,7 @@ After installation, the AWS CloudTrail Log Parser will automatically process any
 3. Look for artifacts labeled as `CloudTrail Log Entries`, which contain the parsed log data.
 
 ## Configuration
-No additional configuration is required. The module automatically detects and processes all `.json` files that match the CloudTrail log format.
+No additional configuration is required. The module automatically detects and processes all `.json` files that match the CloudTrail log naming format.
 
 ## Dependencies
 - Autopsy Forensic Browser (version 4.15.0 or newer recommended)
